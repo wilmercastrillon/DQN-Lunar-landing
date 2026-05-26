@@ -27,12 +27,12 @@ class QLearningAgent:
         self,
         env_id: str,
         *,
-        n_bins: int = 7,
+        n_bins: int = 4,
         lr: float = 0.01,
         gamma: float = 0.99,
         epsilon_start: float = 1.0,
         epsilon_end: float = 0.01,
-        epsilon_decay: float = 0.9998,
+        epsilon_decay: float = 0.9988,
     ) -> None:
         self.env_id = env_id
         self.n_bins = n_bins
@@ -96,6 +96,7 @@ class QLearningAgent:
         print("lunar - epsilon start: ", self.epsilon)
         print("lunar - epsilon end: ", self.epsilon_end)
         print("lunar - epsilon decay: ", self.epsilon_decay)
+        print("lunar - n_bins: ", self.n_bins)
 
         for episode in range(1, total_episodes + 1):
             obs, _ = env.reset()
