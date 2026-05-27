@@ -284,7 +284,7 @@ Flujo de Q learning
 
 Simulacion de resultado
 
-<video src="img/simulation_qlearning.mp4" controls width="600"></video>
+![Simulacion qlearning](img/simulation_qlearning.gif)
 
 ### DNQ
 
@@ -399,4 +399,4 @@ Flujo de DQN
 
 Simulacion de resultados
 
-<video src="img/simulation_dqn.mp4" controls width="600"></video>
+![Simulacio DQN](img/simulation_dqn.gif)
