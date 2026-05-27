@@ -280,11 +280,11 @@ Episode 10000/10000 | Avg Reward: -83.03 | Epsilon: 0.0100 | States visited: 866
 
 Flujo de Q learning
 
-![Simulacio qlearning](img/flow_qlearning.png)
+![Simulacion qlearning](img/flow_qlearning.png)
 
 Simulacion de resultado
 
-![Simulacio qlearning](img/simulation_qlearning.png)
+<video src="img/simulation_qlearning.mp4" controls width="600"></video>
 
 ### DNQ
 
@@ -399,4 +399,4 @@ Flujo de DQN
 
 Simulacion de resultados
 
-![Simulacio DQN](img/simulation_dqn.png)
+<video src="img/simulation_dqn.mp4" controls width="600"></video>
